@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
-
-import IncomingMsgItem from "../Components/IncomingMsgItem.jsx";
-import OutgoingMsgItem from "../Components/OutgoingMsgItem.jsx";
+import OutgoingMsgItem from "./../Widgets/OutgoingMsgItem";
+import IncomingMsgItem from "../Widgets/IncomingMsgItem";
 
 function ChatMainArea({ name, room, messages, handleSendMessage }) {
   const [text, setText] = useState("");

@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import ChatMainArea from "./Layouts/ChatMainArea";
 import SideBar from "./Layouts/SideBar";
-import Modal from "./components/Modal";
+import Modal from "./Widgets/Modal";
+
 import io from "socket.io-client";
 
 const roomsList = ["Entertainment", "Sports", "Food", "Movie"];
